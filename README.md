@@ -4,6 +4,6 @@
 * Use Bootstrap v5.1.3 
 * Responsive design
 * Pantone color palette (Spiritual colors)
-* Glassmorphism design
+* Glassmorphism and abstract design
 
 
