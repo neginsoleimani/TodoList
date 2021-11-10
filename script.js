@@ -15,6 +15,7 @@ if (!todos){
     localStorage.setItem("todos",JSON.stringify(todos))
 }
 
+// function of create todos item
 function createTodos() {
     let todosList = document.querySelector("#todos-list")
     todosList.innerHTML=""
@@ -58,6 +59,8 @@ function createTodos() {
 createTodos(todos)
 let actions = document.querySelector("#actions")
 let formWrapper=document.querySelector("#form-wrapper")
+
+// function of add item
 Array.from(actions.children).forEach(action =>{
 if(action.dataset.action=="add"){
 action.addEventListener("click",e=>{
@@ -77,6 +80,7 @@ action.addEventListener("click",e=>{
 
 })
 }
+// function of search in items
 else if (action.dataset.action=="search"){
     action.addEventListener("click",e=>{
         formWrapper.innerHTML=`
