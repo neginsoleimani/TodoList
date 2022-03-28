@@ -1,4 +1,4 @@
-<h1>  start start update to ver 2.0</h1>
+start start update to ver 2.0
 ![Project image](https://rozup.ir/view/3442122/Screenshot(313).png "Todo list")
 # Todo list
 * Use Local Storage to save data
